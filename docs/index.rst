@@ -6,9 +6,9 @@ Hier steht ein Beispieltext:
 * Hallo1
 * Hallo2
 
-.. _feature-docs:
+.. _readme-docs:
 
-Features
+Readme
 ~~~~~~~~
 
 .. toctree::
