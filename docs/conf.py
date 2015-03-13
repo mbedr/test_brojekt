@@ -15,8 +15,8 @@ extensions = [
 templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
-project = u'Read The Docs'
-copyright = u'2010, Eric Holscher, Charlie Leifer, Bobby Grace'
+project = u'test_brojekt'
+copyright = u'2015, Tom Grabler'
 version = '1.0'
 release = '1.0'
 exclude_patterns = ['_build']
@@ -29,14 +29,14 @@ intersphinx_mapping = {
 }
 # This doesn't exist since we aren't shipping any static files ourselves.
 #html_static_path = ['_static']
-htmlhelp_basename = 'ReadTheDocsdoc'
+htmlhelp_basename = 'test_brojekt'
 latex_documents = [
 ('index', 'ReadTheDocs.tex', u'Read The Docs Documentation',
-u'Eric Holscher, Charlie Leifer, Bobby Grace', 'manual'),
+u'Tom Grabler', 'manual'),
 ]
 man_pages = [
 ('index', 'read-the-docs', u'Read The Docs Documentation',
-[u'Eric Holscher, Charlie Leifer, Bobby Grace'], 1)
+[u'Tom Grabler'], 1)
 ]
 exclude_patterns = [
 #'api' # needed for ``make gettext`` to not die.
